@@ -26,9 +26,14 @@ The goal of this project is to design a machine learning model to predict whethe
 ## Exploratory Data Analysis(EDA)
 After data cleaning, it was discovered that 16.6% of employees left, while 83.4% stayed.
 ### Data Preparation
-Before splitting the data for modelling, the variables `department` and `salary` has to be encoded
-- `department` is categorical, so `pd.get_dummies` can be applied
-- `salary` is categorical too, but it's ordinal. Therefore using `cat.codes` would be appropriate
+#### Data Cleaning
+- To get a better understanding of the dataset, `df.info()` & `df.describe()` were applied.
+- Columns names were standardized in `snake_case`, renamed & spelling corrected as needed.
+- Missing values were checked with `df.isna().sum()` and duplicates were removed with `df.drop_duplicates()`
+#### Categorical Variables
+Before splitting the data for modelling, the variables `department` and `salary` has to be encoded:
+- `department` is categorical, so `pd.get_dummies` can be applied.
+- `salary` is categorical too, but it's ordinal. Therefore using `cat.codes` would be appropriate.
 
 ## Modelling and Evaluation
 
