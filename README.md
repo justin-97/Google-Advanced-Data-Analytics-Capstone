@@ -30,6 +30,6 @@ The goal of this project is to design a machine learning model to predict whethe
 ![columns_variables](https://github.com/justin-97/Google-Advanced-Data-Analytics-Capstone/blob/3ae8cc3830d8175facb52d15865eeb39163479fb/Images/Salifort%20Motors%20dataset%20variables.png)
 
 ## Exploratory Data Analysis(EDA)
-
+After data cleaning, the
 
 
