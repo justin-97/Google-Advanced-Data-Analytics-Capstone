@@ -8,16 +8,10 @@ The goal of this project is to conduct Exploratory Data Analysis (EDA) on a rece
 
 ## Table of Contents
 - [Business Case](#business-case)
-- [Tools](#tools)
-- [Data Cleaning](#data-cleaning) 
+- [Data Overview](#data-overview)
 - [Exploratory Data Analysis](#exploratory-data-analysis)
-- [Data Preparation for Modeling](#data-preparation-for-modeling)
-- [Modeling: XGBoost Binomial Classification](#modeling-xgboost-binomial-classification)
-  - [Model Results on Training Data](#model-results-on-training-data)
-  - [XGBoost Predict on Validation Data](#xgboost-predict-on-validation-data)
-  - [XGBoost Predict on Test Data](#xgboost-predict-on-test-data)
-- [Conclusion and Insights](#conclusion-and-insights)
-- [Recommendation and Next Steps](#recommendation-and-next-steps)
+- [Modelling and Evaluation](#modelling-and-evaluation)
+- [Conclusion](#conclusion)
 
 ## Business Case
 Currently there is a high turnover rate among `Salifort Motors`, which is financially costly. HR has provided a recent employee survery & tasked me to analyze the data to come up with ideas for how to increase employee retention.
@@ -39,4 +33,6 @@ Before splitting the data for modelling, the variables `department` and `salary`
 ## Modelling and Evaluation
 
 
+
+## Conclusion
 
