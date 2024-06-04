@@ -36,7 +36,9 @@ Before splitting the data for modelling, the variables `department` and `salary`
 - `salary` is categorical too, but it's ordinal. Therefore using `cat.codes` would be appropriate.
 
 ## Modelling and Evaluation
-
+After modelling with decision trees, random forests & XGBoost classifier, the champion model chosen was the XGBoost classifier as it excelled in all scoring metrics compared to the other 2 models.
+![models_score_comparison](https://github.com/justin-97/Google-Advanced-Data-Analytics-Capstone/blob/main/Images/Models%20score%20comparison.png)
+The XGBoost classifier comprised of - learning_rate: 0.01, max_depth: None, min_child_weight: 3, n_estimators: 500
 
 
 ## Conclusion
