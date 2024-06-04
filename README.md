@@ -30,6 +30,13 @@ The goal of this project is to design a machine learning model to predict whethe
 ![columns_variables](https://github.com/justin-97/Google-Advanced-Data-Analytics-Capstone/blob/3ae8cc3830d8175facb52d15865eeb39163479fb/Images/Salifort%20Motors%20dataset%20variables.png)
 
 ## Exploratory Data Analysis(EDA)
-After data cleaning, the
+After data cleaning, it was discovered that 16.6% of employees left, while 83.4% stayed.
+### Data Preparation
+Before splitting the data for modelling, the variables `department` and `salary` has to be encoded
+- `department` is categorical, so `pd.get_dummies` can be applied
+- `salary` is categorical too, but it's ordinal. Therefore using `cat.codes` would be appropriate
+
+## Modelling and Evaluation
+
 
 
